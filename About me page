@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color:rosybrown;
+  padding: 30px;
+  text-align:left;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background:#f1f1f1;
+  font-family: sans-serif;
+  padding: 20px;
+  <font color="red">
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 10;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color:rosybrown;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2></h2>
+<p>
+</p>
+<p></p>
+<p><strong></strong></p>
+
+<header>
+  <h2></h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">ABOUT ME</a></li>
+      <li><a href="#">PAST WORK</a></li>
+      <li><a href="#">CASE STUDIES</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+      <p>
+          <div> <img src="picofme.JPG" width="100" height="140"></div>
+      </p>
+    <h1>Robin Butler</h1>
+    <p>UX/UI Designer</p>
+    <p>14 years of experience in the apparel industry and expertise managing the entire supply chain.  Dynamic and creative leader with a proven record of developing new businesses and meeting sales objectives. 
+    
+        Currently expanding digital design skills set by pursuing a UX and UI design degree from UC Berkeley extension. Expected graduation date of April 2020.</p>
+    <p>Computer Skills: Figma, Adobe Suite- XD, Illustrator, Photoshop</p>
+  </article>
+</section>
+
+<footer>
+  <p> <div>
+    <img src="instagram-brands.svg" width="31" height="35">
+    <img src="dribbble-square-brands.svg" width="31" height="35">
+    <img src="linkedin-brands.svg" width="31" height="35">
+</div>
+</p>
+</footer>
+
+</body>
+</html>
